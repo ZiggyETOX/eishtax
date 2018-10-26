@@ -1,0 +1,22 @@
+uuid: fc876029-f70f-414b-8a8c-e658e155e33b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_location
+    - node.type.eishtax_gmap
+  module:
+    - geofield
+id: node.eishtax_gmap.field_location
+field_name: field_location
+entity_type: node
+bundle: eishtax_gmap
+label: Location
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  backend: geofield_backend_default
+field_type: geofield

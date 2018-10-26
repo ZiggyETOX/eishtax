@@ -1,43 +1,118 @@
 /* ------------------ Header ------------------ */
 
 #navbar-top {
-    padding: 0 1rem;
+  padding: 0 1rem;
 }
 
 #navbar-top.navbar-dark .nav-link:hover,
 #navbar-top.navbar-dark .nav-link:focus {
-    color: rgba(255, 255, 255, 0.75);
+  color: rgba(255, 255, 255, 0.75);
 }
 
 #navbar-top.navbar-dark .nav-link {
-    color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.5);
 }
 
 #navbar-top.navbar-light .nav-link:hover,
 #navbar-top.navbar-light .nav-link:focus {
-    color: rgba(0, 0, 0, 0.7);
+  color: rgba(0, 0, 0, 0.7);
 }
 
 #navbar-top.navbar-light .nav-link {
-    color: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .navbar-brand .site-logo {
-    margin-right: 1rem;
+  margin-right: 1rem;
 }
 
 @media (max-width: 33.9em) {
-    .navbar-toggleable-xs .navbar-nav .nav-item+.nav-item,
-    .navbar-toggleable-xs.collapse.in .navbar-nav .nav-item {
-        margin-left: 0;
-        float: none;
-    }
+
+  .navbar-toggleable-xs .navbar-nav .nav-item+.nav-item,
+  .navbar-toggleable-xs.collapse.in .navbar-nav .nav-item {
+    margin-left: 0;
+    float: none;
+  }
 }
 
 @media (max-width: 47.9em) {
-    .navbar-toggleable-sm .navbar-nav .nav-item+.nav-item,
-    .navbar-toggleable-xs.collapse.in .navbar-nav .nav-item {
-        margin-left: 0;
-        float: none;
+
+  .navbar-toggleable-sm .navbar-nav .nav-item+.nav-item,
+  .navbar-toggleable-xs.collapse.in .navbar-nav .nav-item {
+    margin-left: 0;
+    float: none;
+  }
+}
+
+
+
+@media (max-width: 991px) {
+
+  header#header nav#navbar-main .nav-item {
+    border: 2px solid #FFFFFF;
+    border-radius: 30px;
+    width: 200px;
+    padding: 0 10px 0 10px;
+    margin-left: auto;
+  }
+}
+
+
+
+//custom
+
+header#header {
+  //position: fixed;
+  //opacity: 0.9;
+  //width: 100%;
+
+  a.navbar-brand {
+
+    font-weight: bold;
+    font-size: 30px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    padding: 47.5px 0 47.5px 0;
+    width: 140px;
+    margin-right: 0;
+    text-align: center;
+    color: #0079C0 !important;
+  }
+
+  nav#block-eishtax-sass-subtheme-main-menu {
+    margin-left: auto;
+  }
+
+  nav#navbar-main {
+    .nav-item {
+
+      border: 2px solid #FFFFFF;
+      border-radius: 30px;
+
+      a {
+        color: #FFFFFF;
+        font-weight: bold;
+        font-size: 30px;
+      }
+
+      &:hover {
+        background-color: #77bfe8;
+      }
+
+      &.active {
+        background-color: #77bfe8;
+
+        a {}
+      }
     }
+  }
+
+  section.row.region.region-secondary-menu {
+    margin-left: auto;
+    padding-right: 50px;
+  }
+
+  .navbar-dark .navbar-toggler {
+    border-color: #77bfe8;
+  }
 }

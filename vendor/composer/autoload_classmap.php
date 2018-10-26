@@ -5784,6 +5784,7 @@ return array(
     'cweagans\\Composer\\PatchEvent' => $vendorDir . '/cweagans/composer-patches/src/PatchEvent.php',
     'cweagans\\Composer\\PatchEvents' => $vendorDir . '/cweagans/composer-patches/src/PatchEvents.php',
     'cweagans\\Composer\\Patches' => $vendorDir . '/cweagans/composer-patches/src/Patches.php',
+    'geoPHP' => $vendorDir . '/phayes/geophp/geoPHP.inc',
     'org\\bovigo\\vfs\\DotDirectory' => $vendorDir . '/mikey179/vfsStream/src/main/php/org/bovigo/vfs/DotDirectory.php',
     'org\\bovigo\\vfs\\Quota' => $vendorDir . '/mikey179/vfsStream/src/main/php/org/bovigo/vfs/Quota.php',
     'org\\bovigo\\vfs\\content\\FileContent' => $vendorDir . '/mikey179/vfsStream/src/main/php/org/bovigo/vfs/content/FileContent.php',

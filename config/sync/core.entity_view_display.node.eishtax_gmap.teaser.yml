@@ -1,0 +1,30 @@
+uuid: b22c1452-670a-4434-9d95-0f10a05366e2
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.eishtax_gmap.body
+    - node.type.eishtax_gmap
+  module:
+    - text
+    - user
+id: node.eishtax_gmap.teaser
+targetEntityType: node
+bundle: eishtax_gmap
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

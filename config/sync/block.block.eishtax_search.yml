@@ -1,0 +1,22 @@
+uuid: fff7608b-2ef3-46c7-8892-c2aeadf01f48
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - eishtax
+_core:
+  default_config_hash: za-39d5WDUg6XvbyqSnuVYEeq6QM4qKJxW8MnoAha5A
+id: eishtax_search
+theme: eishtax
+region: sidebar_first
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+visibility: {  }

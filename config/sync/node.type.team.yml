@@ -1,0 +1,18 @@
+uuid: 7b1c8ca3-28ed-49f2-a354-47a486d56785
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Team
+type: team
+description: 'People that work ate Eishtax, or that has to do with Eishtax.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

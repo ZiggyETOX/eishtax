@@ -1,0 +1,10 @@
+uuid: d12ceb64-cfda-4b86-90de-2af7791907d8
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+id: user.token
+label: Token
+targetEntityType: user
+cache: true

@@ -1,0 +1,20 @@
+uuid: 85113407-3503-4ab0-8895-72a9982210a3
+langcode: en
+status: true
+dependencies:
+  theme:
+    - eishtax_sass_subtheme
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: eishtax_sass_subtheme_page_title
+theme: eishtax_sass_subtheme
+region: content
+weight: -7
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

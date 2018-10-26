@@ -1,0 +1,22 @@
+uuid: c223d8ac-e70d-400d-a025-6851bc7d18df
+langcode: en
+status: true
+dependencies:
+  theme:
+    - eishtax
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: eishtax_local_tasks
+theme: eishtax
+region: content
+weight: -40
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

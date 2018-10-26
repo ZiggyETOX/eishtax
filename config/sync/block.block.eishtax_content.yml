@@ -1,0 +1,22 @@
+uuid: 095e7373-241c-4334-87d4-e542baaf68e9
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - eishtax
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: eishtax_content
+theme: eishtax
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

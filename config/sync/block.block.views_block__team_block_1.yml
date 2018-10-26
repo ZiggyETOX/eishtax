@@ -1,0 +1,30 @@
+uuid: de972ad3-352c-427a-b04d-5f9cfa71ae35
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.team
+  module:
+    - system
+    - views
+  theme:
+    - eishtax_sass_subtheme
+id: views_block__team_block_1
+theme: eishtax_sass_subtheme
+region: content
+weight: -2
+provider: null
+plugin: 'views_block:team-block_1'
+settings:
+  id: 'views_block:team-block_1'
+  label: 'The Team'
+  provider: views
+  label_display: visible
+  views_label: 'The Team'
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /team
+    negate: false
+    context_mapping: {  }

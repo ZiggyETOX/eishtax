@@ -1,0 +1,22 @@
+uuid: 270dc304-0a91-411b-97c2-a08cdc7a02a9
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - eishtax_sass_subtheme
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: eishtax_sass_subtheme_help
+theme: eishtax_sass_subtheme
+region: content
+weight: -5
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

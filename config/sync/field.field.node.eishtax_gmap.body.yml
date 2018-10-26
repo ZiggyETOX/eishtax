@@ -1,0 +1,22 @@
+uuid: 5ed56aa5-6df0-4a08-b9df-13a964d46972
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.eishtax_gmap
+  module:
+    - text
+id: node.eishtax_gmap.body
+field_name: body
+entity_type: node
+bundle: eishtax_gmap
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

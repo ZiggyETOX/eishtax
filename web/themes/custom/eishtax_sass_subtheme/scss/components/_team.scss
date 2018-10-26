@@ -1,0 +1,68 @@
+// team page
+
+div#block-views-block-team-block-1 {
+  .views-row {
+
+    border: 2px solid #007bff;
+    margin-bottom: 40px;
+  }
+
+  .views-view-grid.horizontal.cols-1.clearfix.col {
+    padding: 0;
+  }
+
+  h2 {
+    border: 2px solid #007bff;
+    border-radius: 14px;
+    text-align: center;
+    font-weight: bold;
+    color: #033e7d;
+  }
+
+  .views-field-field-profile-photo {
+    .field-content {
+      float: left;
+      max-width: 300px;
+      width: 100%;
+      height: auto;
+      margin-right: 10px;
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+
+  .views-field-title {
+
+    a {
+
+      font-size: 30px;
+      font-weight: bold;
+      color: #033e7d;
+    }
+  }
+
+  .views-field-field-achievements {
+
+    .list-group-item {
+      background-color: #033e7d;
+      padding: 8px;
+      color: #ffffff;
+    }
+  }
+
+  .views-field-body {
+
+    border-left: 2px solid #007bff;
+    border-top: 2px solid #007bff;
+    float: left;
+
+    .field-content {
+
+      padding: 10px;
+    }
+  }
+
+}

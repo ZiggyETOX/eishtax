@@ -1,0 +1,20 @@
+uuid: da17d64a-a200-4ef7-a339-12a0032f3bf0
+langcode: en
+status: true
+dependencies:
+  theme:
+    - eishtax_sass_subtheme
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: eishtax_sass_subtheme_local_actions
+theme: eishtax_sass_subtheme
+region: content
+weight: -4
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

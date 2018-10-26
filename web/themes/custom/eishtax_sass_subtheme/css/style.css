@@ -6649,6 +6649,47 @@ form .form-type-textarea {
     margin-left: 0;
     float: none; } }
 
+@media (max-width: 991px) {
+  header#header nav#navbar-main .nav-item {
+    border: 2px solid #FFFFFF;
+    border-radius: 30px;
+    width: 200px;
+    padding: 0 10px 0 10px;
+    margin-left: auto; } }
+
+header#header a.navbar-brand {
+  font-weight: bold;
+  font-size: 30px;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+  padding: 47.5px 0 47.5px 0;
+  width: 140px;
+  margin-right: 0;
+  text-align: center;
+  color: #0079C0 !important; }
+
+header#header nav#block-eishtax-sass-subtheme-main-menu {
+  margin-left: auto; }
+
+header#header nav#navbar-main .nav-item {
+  border: 2px solid #FFFFFF;
+  border-radius: 30px; }
+  header#header nav#navbar-main .nav-item a {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 30px; }
+  header#header nav#navbar-main .nav-item:hover {
+    background-color: #77bfe8; }
+  header#header nav#navbar-main .nav-item.active {
+    background-color: #77bfe8; }
+
+header#header section.row.region.region-secondary-menu {
+  margin-left: auto;
+  padding-right: 50px; }
+
+header#header .navbar-dark .navbar-toggler {
+  border-color: #77bfe8; }
+
 /**
  * @file
  * Styles for the help block.
@@ -7313,6 +7354,57 @@ nav.tabs {
 .views-ui-display-tab-actions .dropbutton .form-submit:hover,
 .views-ui-display-tab-actions .dropbutton .form-submit:focus {
   color: #0079C0; }
+
+.MainImage img {
+  margin-left: -15px;
+  margin-right: -15px;
+  height: auto;
+  width: calc(100% + 30px); }
+
+div#block-views-block-team-block-1 .views-row {
+  border: 2px solid #007bff;
+  margin-bottom: 40px; }
+
+div#block-views-block-team-block-1 .views-view-grid.horizontal.cols-1.clearfix.col {
+  padding: 0; }
+
+div#block-views-block-team-block-1 h2 {
+  border: 2px solid #007bff;
+  border-radius: 14px;
+  text-align: center;
+  font-weight: bold;
+  color: #033e7d; }
+
+div#block-views-block-team-block-1 .views-field-field-profile-photo .field-content {
+  float: left;
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+  margin-right: 10px; }
+  div#block-views-block-team-block-1 .views-field-field-profile-photo .field-content img {
+    width: 100%;
+    height: auto; }
+
+div#block-views-block-team-block-1 .views-field-title a {
+  font-size: 30px;
+  font-weight: bold;
+  color: #033e7d; }
+
+div#block-views-block-team-block-1 .views-field-field-achievements .list-group-item {
+  background-color: #033e7d;
+  padding: 8px;
+  color: #ffffff; }
+
+div#block-views-block-team-block-1 .views-field-body {
+  border-left: 2px solid #007bff;
+  border-top: 2px solid #007bff;
+  float: left; }
+  div#block-views-block-team-block-1 .views-field-body .field-content {
+    padding: 10px; }
+
+div#block-views-block-eishtax-gmap-block-1 {
+  width: 100%;
+  margin-top: -16px; }
 
 /* TYPOGRAPHY */
 /* Google Fonts */

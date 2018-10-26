@@ -1,0 +1,22 @@
+uuid: 25bb9ec6-4e42-4a8d-b281-d7de7d21d442
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - eishtax
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: eishtax_messages
+theme: eishtax
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

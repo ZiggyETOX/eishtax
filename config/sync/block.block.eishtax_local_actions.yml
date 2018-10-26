@@ -1,0 +1,20 @@
+uuid: f74be562-0fc9-4d60-a860-4ff9ec177980
+langcode: en
+status: true
+dependencies:
+  theme:
+    - eishtax
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: eishtax_local_actions
+theme: eishtax
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

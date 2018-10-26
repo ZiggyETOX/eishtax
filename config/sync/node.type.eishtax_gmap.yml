@@ -1,0 +1,17 @@
+uuid: 8261cb3a-f84e-40fa-a421-ed4936cfc3ef
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Eishtax-gmap
+type: eishtax_gmap
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false
