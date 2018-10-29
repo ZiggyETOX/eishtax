@@ -1,0 +1,26 @@
+uuid: dd947f8b-4b01-49cd-8401-7a8c16f29fd4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_postal_address
+    - node.type.contact_info
+  module:
+    - text
+id: node.contact_info.field_postal_address
+field_name: field_postal_address
+entity_type: node
+bundle: contact_info
+label: 'Postal Address'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    summary: ''
+    value: "<p><strong>Postal Address:</strong><br />\r\nJSA&amp; Associates<br />\r\nP.O.Box 1245<br />\r\nRandpark Ridge<br />\r\nSouth Africa<br />\r\n2156</p>\r\n"
+    format: basic_html
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

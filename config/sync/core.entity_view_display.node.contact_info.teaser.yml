@@ -1,0 +1,26 @@
+uuid: 5c39414f-27c6-43d0-9a07-16e0bea3d359
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.contact_info.field_contact_details
+    - field.field.node.contact_info.field_physical_address
+    - field.field.node.contact_info.field_postal_address
+    - node.type.contact_info
+  module:
+    - user
+id: node.contact_info.teaser
+targetEntityType: node
+bundle: contact_info
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_contact_details: true
+  field_physical_address: true
+  field_postal_address: true

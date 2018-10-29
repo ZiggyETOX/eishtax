@@ -1,0 +1,196 @@
+$brand-primary: #1B448E;
+
+div#block-views-block-contact-details-content-block-1 {
+  .table-responsive.col {
+
+    overflow-x: unset;
+    padding: 0;
+  }
+
+
+  table {
+    td {
+      padding: 30px !important;
+      border-top: 3px solid $brand-primary !important;
+    }
+
+    thead {
+      tr {
+        background-color: #FFFFFF; //border: 2px solid $brand-primary;
+
+        @media (max-width: 992px) {
+          th {
+            display: inherit;
+          }
+        }
+      }
+    }
+
+
+    th#view-field-contact-details-table-column {
+
+      color: #FFFFFF;
+      text-transform: uppercase;
+      background-color: $brand-primary;
+
+      @media (max-width: 992px) {
+        width: 113%;
+        border: 0px solid;
+        display: table-cell;
+      }
+    }
+
+    tbody {
+      tr {
+        background-color: #EFF1FB !important;
+        border-right: 3px solid $brand-primary;
+        border-left: 3px solid $brand-primary;
+        border-bottom: 3px solid $brand-primary;
+
+        td.views-field.views-field-field-contact-details {
+          padding-right: 0px !important; //padding-top: 12px;
+
+          p {
+            border-right: 1px solid;
+            height: 200px;
+          }
+        }
+
+        @media (max-width: 992px) {
+          display: grid;
+          width: 100%;
+          border-top: 3px solid $brand-primary;
+
+          td.views-field.views-field-field-contact-details {
+            border-top: 0px solid !important;
+
+            p {
+              border-right: 0px solid !important;
+              height: auto;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//contact block of andrew
+div#block-views-block-team-block-3 {
+
+  .views-row {
+
+    border: 2px solid #1B448E;
+    margin-bottom: 40px;
+  }
+
+  .views-view-grid.horizontal.cols-1.clearfix.col {
+    padding: 0;
+  }
+
+  h2 {
+    border: 2px solid #1B448E;
+    border-radius: 14px;
+    text-align: center;
+    font-weight: bold;
+    color: #1B448E;
+  }
+
+  .views-field-field-profile-photo {
+    .field-content {
+      float: left;
+      max-width: 300px;
+      width: 100%;
+      height: auto;
+      margin-right: 10px;
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+
+  .views-field-title {
+
+    a {
+
+      font-size: 30px;
+      font-weight: bold;
+      color: #1B448E;
+    }
+  }
+
+  .views-field-field-achievements {
+
+    .list-group-item {
+      background-color: #1B448E;
+      padding: 8px;
+      color: #ffffff;
+    }
+  }
+
+  .views-field-body {
+
+    border-left: 2px solid #1B448E;
+    border-top: 2px solid #1B448E;
+    float: left;
+
+    .field-content {
+
+      padding: 10px;
+    }
+  }
+}

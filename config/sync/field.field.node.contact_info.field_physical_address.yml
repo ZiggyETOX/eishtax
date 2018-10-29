@@ -1,0 +1,26 @@
+uuid: 65a40d68-099f-49c9-ab9f-689f1f6f3913
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_physical_address
+    - node.type.contact_info
+  module:
+    - text
+id: node.contact_info.field_physical_address
+field_name: field_physical_address
+entity_type: node
+bundle: contact_info
+label: 'Physical Address'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    summary: ''
+    value: "<p><strong>Physical Address:</strong><br />\r\nSussex Offic Park (First Floor)<br />\r\nCnr Susses Ave &amp; Lynnwood Rd<br />\r\nPretoria<br />\r\n0040</p>\r\n"
+    format: full_html
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

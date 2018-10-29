@@ -1,0 +1,25 @@
+uuid: 8a4ff6a7-5e7b-43dc-a38c-5dc4e3f8dece
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:5294c719-699c-418c-b9c5-62755354fe8f'
+  module:
+    - block_content
+  theme:
+    - eishtax_sass_subtheme
+id: socialmediamenus
+theme: eishtax_sass_subtheme
+region: footer_fifth
+weight: 0
+provider: null
+plugin: 'block_content:5294c719-699c-418c-b9c5-62755354fe8f'
+settings:
+  id: 'block_content:5294c719-699c-418c-b9c5-62755354fe8f'
+  label: 'Follow us '
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

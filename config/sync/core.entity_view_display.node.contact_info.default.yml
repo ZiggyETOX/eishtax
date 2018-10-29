@@ -1,0 +1,44 @@
+uuid: 9d35f9c9-f846-4e18-a5ed-a388a16f5a05
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.contact_info.field_contact_details
+    - field.field.node.contact_info.field_physical_address
+    - field.field.node.contact_info.field_postal_address
+    - node.type.contact_info
+  module:
+    - text
+    - user
+id: node.contact_info.default
+targetEntityType: node
+bundle: contact_info
+mode: default
+content:
+  field_contact_details:
+    weight: 3
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_physical_address:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_postal_address:
+    weight: 2
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

@@ -1,0 +1,30 @@
+uuid: cd399292-5ef6-4dc9-ae4e-1a4ccfe2953c
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.contact_details_content_
+  module:
+    - system
+    - views
+  theme:
+    - eishtax_sass_subtheme
+id: views_block__contact_details_content__block_1
+theme: eishtax_sass_subtheme
+region: content
+weight: -4
+provider: null
+plugin: 'views_block:contact_details_content_-block_1'
+settings:
+  id: 'views_block:contact_details_content_-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /contact-us
+    negate: false
+    context_mapping: {  }

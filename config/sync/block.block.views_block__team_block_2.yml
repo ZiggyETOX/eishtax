@@ -1,0 +1,30 @@
+uuid: ebee434f-0837-4167-a931-6e70bc09c6a1
+langcode: en
+status: false
+dependencies:
+  config:
+    - views.view.team
+  module:
+    - system
+    - views
+  theme:
+    - eishtax_sass_subtheme
+id: views_block__team_block_2
+theme: eishtax_sass_subtheme
+region: content
+weight: -3
+provider: null
+plugin: 'views_block:team-block_2'
+settings:
+  id: 'views_block:team-block_2'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /contact-us
+    negate: false
+    context_mapping: {  }

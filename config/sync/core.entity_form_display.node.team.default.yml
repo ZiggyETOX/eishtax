@@ -6,6 +6,7 @@ dependencies:
     - field.field.node.team.body
     - field.field.node.team.field_achievements
     - field.field.node.team.field_profile_photo
+    - field.field.node.team.field_telephone
     - field.field.node.team.field_work_email
     - image.style.thumbnail
     - node.type.team
@@ -48,6 +49,14 @@ content:
       preview_image_style: thumbnail
     third_party_settings: {  }
     type: image_image
+    region: content
+  field_telephone:
+    weight: 26
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
     region: content
   field_work_email:
     weight: 1

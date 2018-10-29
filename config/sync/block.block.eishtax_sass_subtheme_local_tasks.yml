@@ -9,7 +9,7 @@ _core:
 id: eishtax_sass_subtheme_local_tasks
 theme: eishtax_sass_subtheme
 region: content
-weight: -6
+weight: -9
 provider: null
 plugin: local_tasks_block
 settings:

@@ -11,7 +11,7 @@ _core:
 id: eishtax_sass_subtheme_content
 theme: eishtax_sass_subtheme
 region: content
-weight: -3
+weight: -6
 provider: null
 plugin: system_main_block
 settings:

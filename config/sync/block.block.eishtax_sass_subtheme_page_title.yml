@@ -9,7 +9,7 @@ _core:
 id: eishtax_sass_subtheme_page_title
 theme: eishtax_sass_subtheme
 region: content
-weight: -7
+weight: -10
 provider: null
 plugin: page_title_block
 settings:

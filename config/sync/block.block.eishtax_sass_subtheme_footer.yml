@@ -1,6 +1,6 @@
 uuid: 3a51c6ac-97cd-4a4a-bdca-3dfe1de7fa16
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - system.menu.footer
@@ -13,7 +13,7 @@ _core:
 id: eishtax_sass_subtheme_footer
 theme: eishtax_sass_subtheme
 region: footer_fifth
-weight: 0
+weight: -7
 provider: null
 plugin: 'system_menu_block:footer'
 settings:

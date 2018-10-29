@@ -1,0 +1,26 @@
+uuid: 9156a1f8-3b14-4fc7-88b7-e148e6d89855
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_contact_details
+    - node.type.contact_info
+  module:
+    - text
+id: node.contact_info.field_contact_details
+field_name: field_contact_details
+entity_type: node
+bundle: contact_info
+label: 'Contact Details'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    summary: ''
+    value: "<p><strong>Telephone:&nbsp;&nbsp;</strong>+27 83 378 8185<br />\r\n<strong>E-mail:</strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<a href=\"mailto:andrew@eishtax.co.za\">andrew@eishtax.co.za</a><br />\r\n<strong>Facsimile:</strong>&nbsp; &nbsp;086 550 9377</p>\r\n"
+    format: basic_html
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

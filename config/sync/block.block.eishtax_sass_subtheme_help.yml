@@ -11,7 +11,7 @@ _core:
 id: eishtax_sass_subtheme_help
 theme: eishtax_sass_subtheme
 region: content
-weight: -5
+weight: -8
 provider: null
 plugin: help_block
 settings:

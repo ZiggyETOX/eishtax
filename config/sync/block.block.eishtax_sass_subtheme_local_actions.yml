@@ -9,7 +9,7 @@ _core:
 id: eishtax_sass_subtheme_local_actions
 theme: eishtax_sass_subtheme
 region: content
-weight: -4
+weight: -7
 provider: null
 plugin: local_actions_block
 settings:

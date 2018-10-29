@@ -1,0 +1,30 @@
+uuid: 6aa865ed-8087-49db-9d26-02f95d7b12b5
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.team
+  module:
+    - system
+    - views
+  theme:
+    - eishtax_sass_subtheme
+id: views_block__team_block_3
+theme: eishtax_sass_subtheme
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:team-block_3'
+settings:
+  id: 'views_block:team-block_3'
+  label: 'The owner'
+  provider: views
+  label_display: visible
+  views_label: 'The owner'
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /contact-us
+    negate: false
+    context_mapping: {  }

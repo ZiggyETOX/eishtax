@@ -1,6 +1,6 @@
 uuid: 984d0711-7c67-4fd3-970a-cc19532c20c5
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - system
@@ -11,7 +11,7 @@ _core:
 id: eishtax_sass_subtheme_powered
 theme: eishtax_sass_subtheme
 region: footer_fifth
-weight: 10
+weight: -6
 provider: null
 plugin: system_powered_by_block
 settings:

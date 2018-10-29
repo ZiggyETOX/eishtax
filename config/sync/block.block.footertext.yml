@@ -1,0 +1,25 @@
+uuid: 340ac250-dcf2-496c-84e9-880a69cd0800
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:d46961f1-4010-46a0-942d-1c595740cc08'
+  module:
+    - block_content
+  theme:
+    - eishtax_sass_subtheme
+id: footertext
+theme: eishtax_sass_subtheme
+region: footer_fifth
+weight: -8
+provider: null
+plugin: 'block_content:d46961f1-4010-46a0-942d-1c595740cc08'
+settings:
+  id: 'block_content:d46961f1-4010-46a0-942d-1c595740cc08'
+  label: 'footer text'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
