@@ -1,6 +1,9 @@
 $brand-primary: #1B448E;
 
 div#block-views-block-contact-details-content-block-1 {
+  .table th{
+    border-top:none;
+  }
   .table-responsive.col {
 
     overflow-x: unset;
@@ -9,14 +12,15 @@ div#block-views-block-contact-details-content-block-1 {
 
 
   table {
+    width: calc(100% - 3px);
     td {
-      padding: 30px !important;
-      border-top: 3px solid $brand-primary !important;
+      padding: 30px ;
+      border-top: 3px solid $brand-primary ;
     }
 
     thead {
       tr {
-        background-color: #FFFFFF; //border: 2px solid $brand-primary;
+        background-color: #FFFFFF; 
 
         @media (max-width: 992px) {
           th {
@@ -32,6 +36,8 @@ div#block-views-block-contact-details-content-block-1 {
       color: #FFFFFF;
       text-transform: uppercase;
       background-color: $brand-primary;
+      border-left: 2px solid $brand-primary;
+      border-top: 0px solid red;
 
       @media (max-width: 992px) {
         width: 113%;
@@ -80,117 +86,3 @@ div#block-views-block-contact-details-content-block-1 {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//contact block of andrew
-div#block-views-block-team-block-3 {
-
-  .views-row {
-
-    border: 2px solid #1B448E;
-    margin-bottom: 40px;
-  }
-
-  .views-view-grid.horizontal.cols-1.clearfix.col {
-    padding: 0;
-  }
-
-  h2 {
-    border: 2px solid #1B448E;
-    border-radius: 14px;
-    text-align: center;
-    font-weight: bold;
-    color: #1B448E;
-  }
-
-  .views-field-field-profile-photo {
-    .field-content {
-      float: left;
-      max-width: 300px;
-      width: 100%;
-      height: auto;
-      margin-right: 10px;
-
-      img {
-        width: 100%;
-        height: auto;
-      }
-    }
-  }
-
-  .views-field-title {
-
-    a {
-
-      font-size: 30px;
-      font-weight: bold;
-      color: #1B448E;
-    }
-  }
-
-  .views-field-field-achievements {
-
-    .list-group-item {
-      background-color: #1B448E;
-      padding: 8px;
-      color: #ffffff;
-    }
-  }
-
-  .views-field-body {
-
-    border-left: 2px solid #1B448E;
-    border-top: 2px solid #1B448E;
-    float: left;
-
-    .field-content {
-
-      padding: 10px;
-    }
-  }
-}

@@ -7382,50 +7382,124 @@ nav.tabs {
 .views-ui-display-tab-actions .dropbutton .form-submit:focus {
   color: #1B448E; }
 
-.MainImage img {
-  margin-left: -15px;
-  margin-right: -15px;
-  height: auto;
-  width: calc(100% + 30px); }
+#MainImage {
+  position: relative;
+  overflow: hidden; }
+  #MainImage img {
+    margin: -30px;
+    height: auto;
+    width: calc(100% + 60px); }
+  #MainImage #mainCoverText {
+    position: absolute;
+    top: 15%;
+    margin-left: -15px;
+    text-align: center;
+    width: 100%; }
+    #MainImage #mainCoverText #botText,
+    #MainImage #mainCoverText #topText {
+      position: relative;
+      color: black;
+      margin-left: auto;
+      margin-right: auto;
+      width: fit-content; }
+      #MainImage #mainCoverText #botText .heading,
+      #MainImage #mainCoverText #topText .heading {
+        font-weight: 900;
+        font-size: 40px; }
+        @media (max-width: 500px) {
+          #MainImage #mainCoverText #botText .heading,
+          #MainImage #mainCoverText #topText .heading {
+            font-size: 24px; } }
+      #MainImage #mainCoverText #botText .subHeading,
+      #MainImage #mainCoverText #topText .subHeading {
+        font-weight: 900;
+        font-size: 30px; }
+        @media (max-width: 500px) {
+          #MainImage #mainCoverText #botText .subHeading,
+          #MainImage #mainCoverText #topText .subHeading {
+            font-size: 20px; } }
+      #MainImage #mainCoverText #botText .coverButton,
+      #MainImage #mainCoverText #topText .coverButton {
+        padding: 15px;
+        color: #FFFFFF;
+        background-color: #FF4D6E;
+        font-size: 20px;
+        font-weight: bold;
+        transition: all 0.2s ease-in-out; }
+        @media (max-width: 500px) {
+          #MainImage #mainCoverText #botText .coverButton,
+          #MainImage #mainCoverText #topText .coverButton {
+            font-size: 14px; } }
+        #MainImage #mainCoverText #botText .coverButton:hover,
+        #MainImage #mainCoverText #topText .coverButton:hover {
+          text-decoration: none;
+          font-size: 22px;
+          border-radius: 20px; }
+          @media (max-width: 500px) {
+            #MainImage #mainCoverText #botText .coverButton:hover,
+            #MainImage #mainCoverText #topText .coverButton:hover {
+              font-size: 18px; } }
+    #MainImage #mainCoverText #botText {
+      margin-top: 50px; }
+      @media (max-width: 500px) {
+        #MainImage #mainCoverText #botText {
+          margin-top: 30px; } }
 
+div#block-views-block-team-block-3 .views-row,
 div#block-views-block-team-block-1 .views-row {
-  border: 2px solid #1B448E;
+  border: 3px solid #1B448E;
   margin-bottom: 40px; }
 
+div#block-views-block-team-block-3 .views-row.clearfix,
+div#block-views-block-team-block-1 .views-row.clearfix {
+  background-color: #EFF1FB; }
+
+div#block-views-block-team-block-3 .views-view-grid.horizontal.cols-1.clearfix.col,
 div#block-views-block-team-block-1 .views-view-grid.horizontal.cols-1.clearfix.col {
   padding: 0; }
 
+div#block-views-block-team-block-3 h2,
 div#block-views-block-team-block-1 h2 {
-  border: 2px solid #1B448E;
-  border-radius: 14px;
-  text-align: center;
-  font-weight: bold;
-  color: #1B448E; }
+  line-height: 1.5;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  background-color: #1B448E;
+  padding: 0.75rem;
+  font-weight: 700;
+  font-size: 1rem;
+  width: 42.8%;
+  margin-bottom: 0px; }
 
+div#block-views-block-team-block-3 .views-field-field-profile-photo .field-content,
 div#block-views-block-team-block-1 .views-field-field-profile-photo .field-content {
   float: left;
   max-width: 300px;
   width: 100%;
   height: auto;
   margin-right: 10px; }
+  div#block-views-block-team-block-3 .views-field-field-profile-photo .field-content img,
   div#block-views-block-team-block-1 .views-field-field-profile-photo .field-content img {
     width: 100%;
     height: auto; }
 
+div#block-views-block-team-block-3 .views-field-title a,
 div#block-views-block-team-block-1 .views-field-title a {
   font-size: 30px;
   font-weight: bold;
   color: #1B448E; }
 
+div#block-views-block-team-block-3 .views-field-field-achievements .list-group-item,
 div#block-views-block-team-block-1 .views-field-field-achievements .list-group-item {
   background-color: #1B448E;
   padding: 8px;
   color: #ffffff; }
 
+div#block-views-block-team-block-3 .views-field-body,
 div#block-views-block-team-block-1 .views-field-body {
-  border-left: 2px solid #1B448E;
-  border-top: 2px solid #1B448E;
+  border-left: 3px solid #1B448E;
+  border-top: 3px solid #1B448E;
   float: left; }
+  div#block-views-block-team-block-3 .views-field-body .field-content,
   div#block-views-block-team-block-1 .views-field-body .field-content {
     padding: 10px; }
 
@@ -7433,91 +7507,54 @@ div#block-views-block-eishtax-gmap-block-1 {
   width: 100%;
   margin-top: -16px; }
 
+div#block-views-block-contact-details-content-block-1 .table th {
+  border-top: none; }
+
 div#block-views-block-contact-details-content-block-1 .table-responsive.col {
   overflow-x: unset;
   padding: 0; }
 
-div#block-views-block-contact-details-content-block-1 table td {
-  padding: 30px !important;
-  border-top: 3px solid #1B448E !important; }
-
-div#block-views-block-contact-details-content-block-1 table thead tr {
-  background-color: #FFFFFF; }
-  @media (max-width: 992px) {
-    div#block-views-block-contact-details-content-block-1 table thead tr th {
-      display: inherit; } }
-
-div#block-views-block-contact-details-content-block-1 table th#view-field-contact-details-table-column {
-  color: #FFFFFF;
-  text-transform: uppercase;
-  background-color: #1B448E; }
-  @media (max-width: 992px) {
-    div#block-views-block-contact-details-content-block-1 table th#view-field-contact-details-table-column {
-      width: 113%;
-      border: 0px solid;
-      display: table-cell; } }
-
-div#block-views-block-contact-details-content-block-1 table tbody tr {
-  background-color: #EFF1FB !important;
-  border-right: 3px solid #1B448E;
-  border-left: 3px solid #1B448E;
-  border-bottom: 3px solid #1B448E; }
-  div#block-views-block-contact-details-content-block-1 table tbody tr td.views-field.views-field-field-contact-details {
-    padding-right: 0px !important; }
-    div#block-views-block-contact-details-content-block-1 table tbody tr td.views-field.views-field-field-contact-details p {
-      border-right: 1px solid;
-      height: 200px; }
-  @media (max-width: 992px) {
-    div#block-views-block-contact-details-content-block-1 table tbody tr {
-      display: grid;
-      width: 100%;
-      border-top: 3px solid #1B448E; }
-      div#block-views-block-contact-details-content-block-1 table tbody tr td.views-field.views-field-field-contact-details {
-        border-top: 0px solid !important; }
-        div#block-views-block-contact-details-content-block-1 table tbody tr td.views-field.views-field-field-contact-details p {
-          border-right: 0px solid !important;
-          height: auto; } }
-
-div#block-views-block-team-block-3 .views-row {
-  border: 2px solid #1B448E;
-  margin-bottom: 40px; }
-
-div#block-views-block-team-block-3 .views-view-grid.horizontal.cols-1.clearfix.col {
-  padding: 0; }
-
-div#block-views-block-team-block-3 h2 {
-  border: 2px solid #1B448E;
-  border-radius: 14px;
-  text-align: center;
-  font-weight: bold;
-  color: #1B448E; }
-
-div#block-views-block-team-block-3 .views-field-field-profile-photo .field-content {
-  float: left;
-  max-width: 300px;
-  width: 100%;
-  height: auto;
-  margin-right: 10px; }
-  div#block-views-block-team-block-3 .views-field-field-profile-photo .field-content img {
-    width: 100%;
-    height: auto; }
-
-div#block-views-block-team-block-3 .views-field-title a {
-  font-size: 30px;
-  font-weight: bold;
-  color: #1B448E; }
-
-div#block-views-block-team-block-3 .views-field-field-achievements .list-group-item {
-  background-color: #1B448E;
-  padding: 8px;
-  color: #ffffff; }
-
-div#block-views-block-team-block-3 .views-field-body {
-  border-left: 2px solid #1B448E;
-  border-top: 2px solid #1B448E;
-  float: left; }
-  div#block-views-block-team-block-3 .views-field-body .field-content {
-    padding: 10px; }
+div#block-views-block-contact-details-content-block-1 table {
+  width: calc(100% - 3px); }
+  div#block-views-block-contact-details-content-block-1 table td {
+    padding: 30px;
+    border-top: 3px solid #1B448E; }
+  div#block-views-block-contact-details-content-block-1 table thead tr {
+    background-color: #FFFFFF; }
+    @media (max-width: 992px) {
+      div#block-views-block-contact-details-content-block-1 table thead tr th {
+        display: inherit; } }
+  div#block-views-block-contact-details-content-block-1 table th#view-field-contact-details-table-column {
+    color: #FFFFFF;
+    text-transform: uppercase;
+    background-color: #1B448E;
+    border-left: 2px solid #1B448E;
+    border-top: 0px solid red; }
+    @media (max-width: 992px) {
+      div#block-views-block-contact-details-content-block-1 table th#view-field-contact-details-table-column {
+        width: 113%;
+        border: 0px solid;
+        display: table-cell; } }
+  div#block-views-block-contact-details-content-block-1 table tbody tr {
+    background-color: #EFF1FB !important;
+    border-right: 3px solid #1B448E;
+    border-left: 3px solid #1B448E;
+    border-bottom: 3px solid #1B448E; }
+    div#block-views-block-contact-details-content-block-1 table tbody tr td.views-field.views-field-field-contact-details {
+      padding-right: 0px !important; }
+      div#block-views-block-contact-details-content-block-1 table tbody tr td.views-field.views-field-field-contact-details p {
+        border-right: 1px solid;
+        height: 200px; }
+    @media (max-width: 992px) {
+      div#block-views-block-contact-details-content-block-1 table tbody tr {
+        display: grid;
+        width: 100%;
+        border-top: 3px solid #1B448E; }
+        div#block-views-block-contact-details-content-block-1 table tbody tr td.views-field.views-field-field-contact-details {
+          border-top: 0px solid !important; }
+          div#block-views-block-contact-details-content-block-1 table tbody tr td.views-field.views-field-field-contact-details p {
+            border-right: 0px solid !important;
+            height: auto; } }
 
 /* TYPOGRAPHY */
 /* Google Fonts */
