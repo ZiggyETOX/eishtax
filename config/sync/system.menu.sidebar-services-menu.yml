@@ -1,0 +1,8 @@
+uuid: 8ddecc5b-ec7d-4652-a46f-42748c2ca9f2
+langcode: en
+status: true
+dependencies: {  }
+id: sidebar-services-menu
+label: 'SideBar services menu'
+description: 'A menu that wil be used on some pages that displayes the services'
+locked: false

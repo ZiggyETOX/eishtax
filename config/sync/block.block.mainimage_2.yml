@@ -1,0 +1,31 @@
+uuid: 254389b8-198e-4d0a-a239-c49c47443671
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:image:d2bb22a9-64ba-46a7-823c-bf237e76fb78'
+  module:
+    - block_content
+    - system
+  theme:
+    - eishtax_sass_subtheme
+id: mainimage_2
+theme: eishtax_sass_subtheme
+region: content
+weight: -11
+provider: null
+plugin: 'block_content:d2bb22a9-64ba-46a7-823c-bf237e76fb78'
+settings:
+  id: 'block_content:d2bb22a9-64ba-46a7-823c-bf237e76fb78'
+  label: 'Main image'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /contact-us
+    negate: false
+    context_mapping: {  }

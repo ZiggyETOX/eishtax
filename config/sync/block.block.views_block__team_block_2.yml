@@ -12,7 +12,7 @@ dependencies:
 id: views_block__team_block_2
 theme: eishtax_sass_subtheme
 region: content
-weight: -3
+weight: -2
 provider: null
 plugin: 'views_block:team-block_2'
 settings:

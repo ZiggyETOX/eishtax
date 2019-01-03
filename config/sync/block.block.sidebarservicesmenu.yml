@@ -1,0 +1,29 @@
+uuid: 4cef89d5-3e02-4ac1-b0d8-b2938f81d5bf
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.sidebar-services-menu
+  module:
+    - system
+  theme:
+    - eishtax_sass_subtheme
+id: sidebarservicesmenu
+theme: eishtax_sass_subtheme
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'system_menu_block:sidebar-services-menu'
+settings:
+  id: 'system_menu_block:sidebar-services-menu'
+  label: 'SideBar services menu'
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility:
+  request_path:
+    id: request_path
+    pages: "<front>\r\n/about\r\n/team/*"
+    negate: false
+    context_mapping: {  }

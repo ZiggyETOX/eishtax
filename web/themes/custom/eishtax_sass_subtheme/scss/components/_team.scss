@@ -1,7 +1,7 @@
 // team page{
 
- 
-  
+
+
 //contact block of andrew
 div#block-views-block-team-block-3,
 div#block-views-block-team-block-1 {
@@ -10,15 +10,17 @@ div#block-views-block-team-block-1 {
     border: 3px solid #1B448E;
     margin-bottom: 40px;
   }
- .views-row.clearfix{
+
+  .views-row.clearfix {
     background-color: #EFF1FB;
   }
+
   .views-view-grid.horizontal.cols-1.clearfix.col {
     padding: 0;
   }
 
   h2 {
-  	line-height:1.5;
+    line-height: 1.5;
     color: #FFFFFF;
     text-transform: uppercase;
     background-color: #1B448E;
@@ -27,11 +29,6 @@ div#block-views-block-team-block-1 {
     font-size: 1rem;
     width: 42.8%;
     margin-bottom: 0px;
-    // border: 2px solid #1B448E;
-    // border-radius: 14px;
-    // text-align: center;
-    // font-weight: bold;
-    // color: #1B448E;
   }
 
   .views-field-field-profile-photo {
@@ -55,16 +52,26 @@ div#block-views-block-team-block-1 {
 
       font-size: 30px;
       font-weight: bold;
-      color:#1B448E;
+      color: #1B448E;
     }
   }
 
   .views-field-field-achievements {
 
+    padding-top: 10px;
+    width: 100%;
+    display: inline-block;
+
     .list-group-item {
-      background-color: #1B448E;
+      background-color: #d7d9e0;//#1B448E;
       padding: 8px;
-      color: #ffffff;
+      color: #1B448E;
+      transition: all 0.3s ease-in-out;
+
+      &:hover {
+
+        font-size: 22px;
+      }
     }
   }
 
@@ -80,4 +87,97 @@ div#block-views-block-team-block-1 {
     }
   }
 
+}
+
+.block-page-title-block {
+  margin-top: 50px;
+
+  h1 {
+    line-height: 1.5;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    background-color: #1B448E;
+    padding: 0.75rem;
+    font-weight: 700;
+    font-size: 1rem;
+    margin-bottom: 0px;
+  }
+}
+
+.node--type-team {
+  .node__content {
+    background-color: #EFF1FB;
+    margin-top: 0px;
+    border: 3px solid #1B448E;
+    margin-bottom: 40px;
+
+    .field--name-field-profile-photo {
+      float: left;
+      min-width: 275px;
+      max-width: 400px;
+      width: 100%;
+      height: auto;
+
+
+      img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 0px;
+      }
+
+      @media (max-width: 991px) {
+        max-width: unset;
+        min-width: unset;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+        margin-bottom: 15px;
+      }
+    }
+
+    .field--name-body {
+      border-left: 3px solid #1B448E;
+      border-top: 3px solid #1B448E;
+      float: left;
+      margin-left: 30px !important;
+      margin-top: 30px;
+
+
+      p {
+
+        padding: 10px;
+      }
+    }
+
+    .field {
+      margin-left: 10px;
+
+      .field__label {
+
+        font-size: 25px;
+      }
+
+      .field__items {
+        .field__item {
+
+          border: 1px solid #77bfe8;
+          border-top: none;
+          background-color: #1B448E;
+          padding: 8px;
+          color: #ffffff;
+          display: grid;
+          margin-right: 10px;
+          border-radius: 3px;
+          transition: all 0.3s ease-in-out;
+
+          &:hover {
+
+            font-size: 22px;
+          }
+        }
+
+      }
+    }
+
+
+  }
 }
